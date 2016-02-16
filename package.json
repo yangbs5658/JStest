@@ -1,12 +1,12 @@
 {
   "name": "sqltest2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "x.js",
   "dependencies": {
     "mysql": "^2.10.2"
   },
 
-  "repository": "ybs/sqltest2",
+  "repository": "yangbs5658/JStest",
   "bin": {
     "sqltest2": "test.js"
   },
