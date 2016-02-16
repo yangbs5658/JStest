@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>表单</title>
+		
+</head>
+<body>
+	<!--<form action="https://www.baidu.com/" target="_blank" autocomplete="on" method="get" name="reg">-->
+	<form action="https://www.baidu.com/" target="_blank" method="get" name="reg">
+
+	<fieldset>
+		<legend>fenzu</legend>		
+		<label for="user">用户名：</label>	
+		
+		<input type="text" list="abc" required autocomplete="off" name="user" id="user" value="123" autofocus><br>
+			for="user" 用于与下面的标签挂钩，通过name挂钩，而且能够实现只需通过点击用户名就可以触发输入框<br>	
+		<!--<select>
+			<option selected="selected" value="1">北京</option>
+			<option selected="selected" value="2">天津</option>
+		</select><br>-->
+ 					
+		<label>
+				电子邮箱：
+				<input name="mail" value="12" autofocus><br>
+		</label>
+			
+		<label>
+				密码：
+				<input name="input" type="password" autofocus><br>
+		</label>
+		
+		<label>
+				输入值：
+				<input name="input2" placeholder="输入值" autofocus><br>
+		</label>
+	
+		<label>
+				输入值：
+				<input name="input3" type="search" autofocus><br>
+		</label>
+
+		<label>
+				输入数值：
+				<input name="input3" type="number" max=10 min=1 autofocus><br>
+		</label>
+
+		<label>
+				性别：<br>
+				男<input name="sex" type="radio"  value="1"><br>
+				女<input name="sex" type="radio"  value="2"><br>
+		</label>
+		
+		<label>
+				爱好：<br>
+				唱歌<input name="love" type="checkbox"  value="1"><br>
+				踢球<input name="love" type="checkbox"  value="2"><br>
+				打架<input name="love" type="checkbox"  value="3"><br>
+		</label>
+				
+	</fieldset>
+		<button type="sumbit" formaction="http://www.163.com/">summit</button>	
+		<button type="reset">重置</button>
+		<button type="button">按钮</button>	
+	<datalist id="abc">
+			<option value="天津邮箱">天津</option>
+	</datalist> 
+
+			
+	</form>
+</body>	

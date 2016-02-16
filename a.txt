@@ -1,0 +1,45 @@
+{
+    "id": 64470,
+    "create_time": "2016-01-19T09:38:11.000Z",
+    "update_time": "2016-01-19T09:38:13.000Z",
+    "birthday": null,
+    "gender": 2,
+    "identity_no": "WQEP1D2B4D59B23D819FC4ED5C916EFB1977DBC93B33C5E271CE",
+    "is_account_expired": {
+        "type": "Buffer",
+        "data": [
+            0
+        ]
+    },
+    "is_credential_expired": {
+        "type": "Buffer",
+        "data": [
+            0
+        ]
+    },
+    "is_enabled": {
+        "type": "Buffer",
+        "data": [
+            1
+        ]
+    },
+    "is_locked": {
+        "type": "Buffer",
+        "data": [
+            0
+        ]
+    },
+    "is_test": {
+        "type": "Buffer",
+        "data": [
+            0
+        ]
+    },
+    "login_name": "WQEPB2A2A08F06E72D2A5130F1CFF236005F",
+    "password": "WQEPgvEnkLTC8KkbnbRSd1tGTBKy4X5px9WAWRTdBwTb6Y/sT+C7xNrsHoOmR1fxdMYQns6z+3rfX5S7\nprNs9CW++9isyZjQm03OmT/UsUqA7tb9JlWQ+Kx/nuat0o1AaLxC+UA0yKmS7RyI7OJCRbVUfk4E\nS85H3LqBBbf4HWH4agg=",
+    "phone": "WQEPB2A2A08F06E72D2A5130F1CFF236005F",
+    "real_name": "WQEP845484EA269FB1F228E66907E4DA8CEF",
+    "city": "合肥",
+    "province": "安徽"
+}
+res
